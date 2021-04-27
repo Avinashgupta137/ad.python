@@ -1,0 +1,8 @@
+l=["cemera", "phone", "hardisk", "ipad","graphiccard"]
+sentance = " and ".join(l)
+print(sentance)
+
+sentance = " == ".join(l)
+print(sentance)
+sentance = " \n ".join(l)
+print(sentance)
