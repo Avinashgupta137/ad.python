@@ -1,0 +1,11 @@
+name = " avinash"
+channel = " statuszoneavinash"
+type = "gaming"
+a ="This is{0} and his {2} typechannel is {1}".format(name,channel,type)
+print(a)
+
+name = " avinash"
+channel = " statuszoneavinash"
+type = "gaming"
+a ="This is{} and his {} typechannel is {}".format(name,channel,type)
+print(a)
