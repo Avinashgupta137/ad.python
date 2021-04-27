@@ -1,0 +1,22 @@
+class Car():
+    def __init__(self,modelname,year,price):
+        self.modelname = modelname
+        self.year = year
+        self.price = price
+    def price_inc(self):
+        self.price = int(self.price*1.15)
+
+class SuperCar(Car):
+    pass
+
+honda = Car("city",2017,100000)
+tata = Car('bolt',2016,600000)
+
+honda.cc=150
+
+print(honda.price)
+honda.price_inc()
+print(honda.price)
+
+print(honda.__dict__)
+print(honda.modelname)
